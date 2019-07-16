@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>!!! Lenny !!!</h1>
+	<script src="http://localhost:3000/socket.io/socket.io.js"></script>
+	<script>
+	  var socket = io('http://localhost:3000');
+	  socket.on('events',(e) => {
+	  	console.log(e);
+	  })
+	</script>
+	
+</body>
+</html>
